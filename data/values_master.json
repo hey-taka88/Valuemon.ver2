@@ -1,0 +1,1346 @@
+{
+  "version": "2.0.0",
+  "description": "UNM価値観リスト - Shadow Lantern用88項目マスターデータ（UNM + Brené Brown統合版）",
+  "categories": {
+    "achievement": {
+      "name_ja": "達成・成長",
+      "name_en": "Achievement & Growth",
+      "color": "#3498db"
+    },
+    "relationship": {
+      "name_ja": "関係・つながり",
+      "name_en": "Relationship & Connection",
+      "color": "#e91e63"
+    },
+    "autonomy": {
+      "name_ja": "自律・自由",
+      "name_en": "Autonomy & Freedom",
+      "color": "#9b59b6"
+    },
+    "security": {
+      "name_ja": "安全・安定",
+      "name_en": "Security & Stability",
+      "color": "#2ecc71"
+    },
+    "pleasure": {
+      "name_ja": "快楽・刺激",
+      "name_en": "Pleasure & Stimulation",
+      "color": "#f39c12"
+    },
+    "meaning": {
+      "name_ja": "意味・目的",
+      "name_en": "Meaning & Purpose",
+      "color": "#1abc9c"
+    },
+    "power": {
+      "name_ja": "力・影響力",
+      "name_en": "Power & Influence",
+      "color": "#e74c3c"
+    },
+    "tradition": {
+      "name_ja": "伝統・秩序",
+      "name_en": "Tradition & Order",
+      "color": "#95a5a6"
+    }
+  },
+  "values": [
+    {
+      "id": "V001",
+      "name_ja": "達成",
+      "name_en": "Achievement",
+      "category": "achievement",
+      "description": "目標を設定し、それを達成することに価値を置く",
+      "shadow_trigger": "停滞感、無力感、自己否定",
+      "keywords": [
+        "成功",
+        "目標",
+        "実績",
+        "結果",
+        "勝利"
+      ]
+    },
+    {
+      "id": "V002",
+      "name_ja": "成長",
+      "name_en": "Growth",
+      "category": "achievement",
+      "description": "自己の能力や知識を向上させ続けることに価値を置く",
+      "shadow_trigger": "退化への恐怖、学びの停滞",
+      "keywords": [
+        "向上",
+        "学習",
+        "進歩",
+        "発達",
+        "進化"
+      ]
+    },
+    {
+      "id": "V003",
+      "name_ja": "知識",
+      "name_en": "Knowledge",
+      "category": "achievement",
+      "description": "新しい情報や理解を得ることに価値を置く",
+      "shadow_trigger": "無知への恥、理解不能への焦り",
+      "keywords": [
+        "学び",
+        "理解",
+        "情報",
+        "教養",
+        "真実"
+      ]
+    },
+    {
+      "id": "V004",
+      "name_ja": "卓越",
+      "name_en": "Excellence",
+      "category": "achievement",
+      "description": "物事を最高レベルで遂行することに価値を置く",
+      "shadow_trigger": "凡庸への嫌悪、中途半端への苛立ち",
+      "keywords": [
+        "最高",
+        "一流",
+        "完璧",
+        "クオリティ",
+        "プロ"
+      ]
+    },
+    {
+      "id": "V005",
+      "name_ja": "創造性",
+      "name_en": "Creativity",
+      "category": "achievement",
+      "description": "新しいアイデアや作品を生み出すことに価値を置く",
+      "shadow_trigger": "模倣への軽蔑、オリジナリティの欠如",
+      "keywords": [
+        "独創",
+        "革新",
+        "発明",
+        "芸術",
+        "表現"
+      ]
+    },
+    {
+      "id": "V006",
+      "name_ja": "能力",
+      "name_en": "Competence",
+      "category": "achievement",
+      "description": "物事を効果的にこなす力を持つことに価値を置く",
+      "shadow_trigger": "無能感、役立たずという自己認識",
+      "keywords": [
+        "スキル",
+        "専門性",
+        "熟練",
+        "実力",
+        "技術"
+      ]
+    },
+    {
+      "id": "V007",
+      "name_ja": "挑戦",
+      "name_en": "Challenge",
+      "category": "achievement",
+      "description": "困難な課題に立ち向かうことに価値を置く",
+      "shadow_trigger": "安全地帯への閉塞感、刺激不足",
+      "keywords": [
+        "困難",
+        "試練",
+        "冒険",
+        "限界突破",
+        "リスク"
+      ]
+    },
+    {
+      "id": "V008",
+      "name_ja": "効率",
+      "name_en": "Efficiency",
+      "category": "achievement",
+      "description": "無駄なく最適な方法で成果を出すことに価値を置く",
+      "shadow_trigger": "非効率への苛立ち、時間浪費への怒り",
+      "keywords": [
+        "最適化",
+        "生産性",
+        "合理的",
+        "スピード",
+        "ROI"
+      ]
+    },
+    {
+      "id": "V009",
+      "name_ja": "好奇心",
+      "name_en": "Curiosity",
+      "category": "achievement",
+      "description": "未知のことを探求し学ぶことに価値を置く",
+      "shadow_trigger": "退屈、マンネリ、変化のなさ",
+      "keywords": [
+        "探求",
+        "疑問",
+        "興味",
+        "発見",
+        "調査"
+      ]
+    },
+    {
+      "id": "V010",
+      "name_ja": "知恵",
+      "name_en": "Wisdom",
+      "category": "achievement",
+      "description": "深い洞察力と判断力を持つことに価値を置く",
+      "shadow_trigger": "浅慮への後悔、判断ミスへの自責",
+      "keywords": [
+        "洞察",
+        "経験",
+        "判断",
+        "先見",
+        "賢明"
+      ]
+    },
+    {
+      "id": "V011",
+      "name_ja": "愛",
+      "name_en": "Love",
+      "category": "relationship",
+      "description": "深い愛情とつながりを感じることに価値を置く",
+      "shadow_trigger": "孤独、拒絶への恐怖、見捨てられ不安",
+      "keywords": [
+        "親密",
+        "献身",
+        "絆",
+        "ケア",
+        "情熱"
+      ]
+    },
+    {
+      "id": "V012",
+      "name_ja": "家族",
+      "name_en": "Family",
+      "category": "relationship",
+      "description": "家族との関係を大切にすることに価値を置く",
+      "shadow_trigger": "家族崩壊への恐怖、断絶の痛み",
+      "keywords": [
+        "血縁",
+        "親子",
+        "兄弟",
+        "絆",
+        "ホーム"
+      ]
+    },
+    {
+      "id": "V013",
+      "name_ja": "友情",
+      "name_en": "Friendship",
+      "category": "relationship",
+      "description": "真の友人を持ち、友情を育むことに価値を置く",
+      "shadow_trigger": "孤立、裏切りへの恐怖",
+      "keywords": [
+        "仲間",
+        "信頼",
+        "絆",
+        "支え合い",
+        "理解"
+      ]
+    },
+    {
+      "id": "V014",
+      "name_ja": "帰属",
+      "name_en": "Belonging",
+      "category": "relationship",
+      "description": "コミュニティの一員であることに価値を置く",
+      "shadow_trigger": "疎外感、居場所のなさ",
+      "keywords": [
+        "所属",
+        "一体感",
+        "コミュニティ",
+        "チーム",
+        "仲間意識"
+      ]
+    },
+    {
+      "id": "V015",
+      "name_ja": "親密さ",
+      "name_en": "Intimacy",
+      "category": "relationship",
+      "description": "深い心のつながりを持つことに価値を置く",
+      "shadow_trigger": "表面的な関係への空虚感",
+      "keywords": [
+        "深い関係",
+        "心の交流",
+        "本音",
+        "信頼",
+        "理解"
+      ]
+    },
+    {
+      "id": "V016",
+      "name_ja": "受容",
+      "name_en": "Acceptance",
+      "category": "relationship",
+      "description": "ありのままを受け入れられることに価値を置く",
+      "shadow_trigger": "拒絶への恐怖、否定される痛み",
+      "keywords": [
+        "承認",
+        "認められる",
+        "受け入れ",
+        "ありのまま"
+      ]
+    },
+    {
+      "id": "V017",
+      "name_ja": "貢献",
+      "name_en": "Contribution",
+      "category": "relationship",
+      "description": "他者や社会に役立つことに価値を置く",
+      "shadow_trigger": "無意味感、存在価値の疑問",
+      "keywords": [
+        "奉仕",
+        "社会貢献",
+        "役立つ",
+        "サポート",
+        "支援"
+      ]
+    },
+    {
+      "id": "V018",
+      "name_ja": "思いやり",
+      "name_en": "Compassion",
+      "category": "relationship",
+      "description": "他者の苦しみを理解し共感することに価値を置く",
+      "shadow_trigger": "冷淡さへの嫌悪、無関心への怒り",
+      "keywords": [
+        "共感",
+        "優しさ",
+        "配慮",
+        "ケア",
+        "慈悲"
+      ]
+    },
+    {
+      "id": "V019",
+      "name_ja": "尊重",
+      "name_en": "Respect",
+      "category": "relationship",
+      "description": "他者を敬い、敬われることに価値を置く",
+      "shadow_trigger": "軽視される痛み、侮辱への怒り",
+      "keywords": [
+        "敬意",
+        "礼儀",
+        "認知",
+        "尊厳",
+        "価値"
+      ]
+    },
+    {
+      "id": "V020",
+      "name_ja": "コミュニケーション",
+      "name_en": "Communication",
+      "category": "relationship",
+      "description": "他者と効果的に意思疎通することに価値を置く",
+      "shadow_trigger": "誤解への苛立ち、伝わらない孤独",
+      "keywords": [
+        "対話",
+        "表現",
+        "理解",
+        "共有",
+        "伝達"
+      ]
+    },
+    {
+      "id": "V021",
+      "name_ja": "自由",
+      "name_en": "Freedom",
+      "category": "autonomy",
+      "description": "束縛されず自分で選択できることに価値を置く",
+      "shadow_trigger": "閉塞感、支配への憤り、息苦しさ",
+      "keywords": [
+        "独立",
+        "選択",
+        "自律",
+        "解放",
+        "制約なし"
+      ]
+    },
+    {
+      "id": "V022",
+      "name_ja": "自律",
+      "name_en": "Autonomy",
+      "category": "autonomy",
+      "description": "自分自身で決断し行動することに価値を置く",
+      "shadow_trigger": "依存状態への苛立ち、他者支配への怒り",
+      "keywords": [
+        "自己決定",
+        "主体性",
+        "独立",
+        "自己管理"
+      ]
+    },
+    {
+      "id": "V023",
+      "name_ja": "独立",
+      "name_en": "Independence",
+      "category": "autonomy",
+      "description": "他者に依存せず自立することに価値を置く",
+      "shadow_trigger": "依存への恥、甘えへの嫌悪",
+      "keywords": [
+        "自立",
+        "一人で立つ",
+        "頼らない",
+        "孤高"
+      ]
+    },
+    {
+      "id": "V024",
+      "name_ja": "個性",
+      "name_en": "Individuality",
+      "category": "autonomy",
+      "description": "自分らしさを表現することに価値を置く",
+      "shadow_trigger": "没個性への恐怖、埋没への焦り",
+      "keywords": [
+        "ユニーク",
+        "オリジナル",
+        "自分らしさ",
+        "差別化"
+      ]
+    },
+    {
+      "id": "V025",
+      "name_ja": "冒険",
+      "name_en": "Adventure",
+      "category": "autonomy",
+      "description": "新しい経験や未知の世界を探求することに価値を置く",
+      "shadow_trigger": "退屈、ルーチンへの閉塞感",
+      "keywords": [
+        "探検",
+        "旅",
+        "未知",
+        "スリル",
+        "経験"
+      ]
+    },
+    {
+      "id": "V026",
+      "name_ja": "変化",
+      "name_en": "Change",
+      "category": "autonomy",
+      "description": "新しい状況や環境の変化を歓迎することに価値を置く",
+      "shadow_trigger": "停滞への恐怖、マンネリへの苛立ち",
+      "keywords": [
+        "革新",
+        "転換",
+        "進化",
+        "柔軟",
+        "適応"
+      ]
+    },
+    {
+      "id": "V027",
+      "name_ja": "プライバシー",
+      "name_en": "Privacy",
+      "category": "autonomy",
+      "description": "自分だけの空間や時間を持つことに価値を置く",
+      "shadow_trigger": "侵害への怒り、監視への不快感",
+      "keywords": [
+        "個人空間",
+        "秘密",
+        "一人の時間",
+        "境界"
+      ]
+    },
+    {
+      "id": "V028",
+      "name_ja": "柔軟性",
+      "name_en": "Flexibility",
+      "category": "autonomy",
+      "description": "状況に応じて対応を変えられることに価値を置く",
+      "shadow_trigger": "硬直した状況への苛立ち",
+      "keywords": [
+        "適応",
+        "臨機応変",
+        "可変",
+        "オープン"
+      ]
+    },
+    {
+      "id": "V029",
+      "name_ja": "自己表現",
+      "name_en": "Self-Expression",
+      "category": "autonomy",
+      "description": "自分の考えや感情を表現することに価値を置く",
+      "shadow_trigger": "抑圧、声を封じられる苦しみ",
+      "keywords": [
+        "表現",
+        "発信",
+        "アート",
+        "創作",
+        "声"
+      ]
+    },
+    {
+      "id": "V030",
+      "name_ja": "シンプル",
+      "name_en": "Simplicity",
+      "category": "autonomy",
+      "description": "複雑さを避け、シンプルに生きることに価値を置く",
+      "shadow_trigger": "複雑さへの疲弊、混乱への苛立ち",
+      "keywords": [
+        "ミニマル",
+        "本質",
+        "削ぎ落とす",
+        "クリア"
+      ]
+    },
+    {
+      "id": "V031",
+      "name_ja": "安全",
+      "name_en": "Safety",
+      "category": "security",
+      "description": "身体的・精神的に安全であることに価値を置く",
+      "shadow_trigger": "危険への恐怖、脅威への不安",
+      "keywords": [
+        "保護",
+        "安心",
+        "守り",
+        "リスク回避",
+        "防御"
+      ]
+    },
+    {
+      "id": "V032",
+      "name_ja": "安定",
+      "name_en": "Stability",
+      "category": "security",
+      "description": "予測可能で安定した環境に価値を置く",
+      "shadow_trigger": "不確実性への不安、変動への恐怖",
+      "keywords": [
+        "確実",
+        "予測可能",
+        "一貫性",
+        "持続",
+        "基盤"
+      ]
+    },
+    {
+      "id": "V033",
+      "name_ja": "健康",
+      "name_en": "Health",
+      "category": "security",
+      "description": "心身の健康を維持することに価値を置く",
+      "shadow_trigger": "病気への恐怖、衰えへの不安",
+      "keywords": [
+        "体調",
+        "ウェルネス",
+        "活力",
+        "長寿",
+        "体力"
+      ]
+    },
+    {
+      "id": "V034",
+      "name_ja": "経済的安定",
+      "name_en": "Financial Security",
+      "category": "security",
+      "description": "経済的に不安のない状態に価値を置く",
+      "shadow_trigger": "貧困への恐怖、生存不安",
+      "keywords": [
+        "貯蓄",
+        "収入",
+        "資産",
+        "安心",
+        "備え"
+      ]
+    },
+    {
+      "id": "V035",
+      "name_ja": "秩序",
+      "name_en": "Order",
+      "category": "security",
+      "description": "整理整頓され規則正しい環境に価値を置く",
+      "shadow_trigger": "混乱への不快感、無秩序への怒り",
+      "keywords": [
+        "整理",
+        "規律",
+        "ルール",
+        "構造",
+        "計画"
+      ]
+    },
+    {
+      "id": "V036",
+      "name_ja": "信頼性",
+      "name_en": "Reliability",
+      "category": "security",
+      "description": "頼りになる存在であることに価値を置く",
+      "shadow_trigger": "裏切りへの恐怖、不確実性への不安",
+      "keywords": [
+        "確実",
+        "約束",
+        "責任",
+        "期待",
+        "堅実"
+      ]
+    },
+    {
+      "id": "V037",
+      "name_ja": "準備",
+      "name_en": "Preparedness",
+      "category": "security",
+      "description": "あらゆる事態に備えることに価値を置く",
+      "shadow_trigger": "不意打ちへの恐怖、無防備への不安",
+      "keywords": [
+        "計画",
+        "備え",
+        "対策",
+        "予防",
+        "保険"
+      ]
+    },
+    {
+      "id": "V038",
+      "name_ja": "快適さ",
+      "name_en": "Comfort",
+      "category": "security",
+      "description": "心地よい環境で過ごすことに価値を置く",
+      "shadow_trigger": "不快への嫌悪、苦痛への恐怖",
+      "keywords": [
+        "心地よさ",
+        "リラックス",
+        "安らぎ",
+        "居心地"
+      ]
+    },
+    {
+      "id": "V039",
+      "name_ja": "保護",
+      "name_en": "Protection",
+      "category": "security",
+      "description": "大切なものを守ることに価値を置く",
+      "shadow_trigger": "喪失への恐怖、無力感",
+      "keywords": [
+        "守る",
+        "防衛",
+        "シールド",
+        "セーフティ"
+      ]
+    },
+    {
+      "id": "V040",
+      "name_ja": "予測可能性",
+      "name_en": "Predictability",
+      "category": "security",
+      "description": "物事の見通しが立つことに価値を置く",
+      "shadow_trigger": "不確実性への不安、サプライズへの恐怖",
+      "keywords": [
+        "見通し",
+        "確実性",
+        "パターン",
+        "期待通り"
+      ]
+    },
+    {
+      "id": "V041",
+      "name_ja": "楽しさ",
+      "name_en": "Fun",
+      "category": "pleasure",
+      "description": "楽しい経験をすることに価値を置く",
+      "shadow_trigger": "退屈、喜びの欠如、生きている実感のなさ",
+      "keywords": [
+        "遊び",
+        "笑い",
+        "娯楽",
+        "喜び",
+        "ハッピー"
+      ]
+    },
+    {
+      "id": "V042",
+      "name_ja": "快楽",
+      "name_en": "Pleasure",
+      "category": "pleasure",
+      "description": "心地よい感覚や体験に価値を置く",
+      "shadow_trigger": "苦痛への嫌悪、禁欲への反発",
+      "keywords": [
+        "享楽",
+        "満足",
+        "快感",
+        "心地よさ"
+      ]
+    },
+    {
+      "id": "V043",
+      "name_ja": "美",
+      "name_en": "Beauty",
+      "category": "pleasure",
+      "description": "美しいものを鑑賞し、美を創造することに価値を置く",
+      "shadow_trigger": "醜さへの嫌悪、美的感覚の欠如",
+      "keywords": [
+        "芸術",
+        "審美",
+        "エレガント",
+        "洗練",
+        "感性"
+      ]
+    },
+    {
+      "id": "V044",
+      "name_ja": "刺激",
+      "name_en": "Stimulation",
+      "category": "pleasure",
+      "description": "興奮や高揚感を得ることに価値を置く",
+      "shadow_trigger": "退屈、無感動、生きている実感のなさ",
+      "keywords": [
+        "興奮",
+        "スリル",
+        "アドレナリン",
+        "ワクワク"
+      ]
+    },
+    {
+      "id": "V045",
+      "name_ja": "ユーモア",
+      "name_en": "Humor",
+      "category": "pleasure",
+      "description": "笑いやユーモアを楽しむことに価値を置く",
+      "shadow_trigger": "深刻すぎる状況への疲弊",
+      "keywords": [
+        "笑い",
+        "ジョーク",
+        "軽さ",
+        "コメディ"
+      ]
+    },
+    {
+      "id": "V046",
+      "name_ja": "感覚",
+      "name_en": "Sensuality",
+      "category": "pleasure",
+      "description": "五感を通じた豊かな体験に価値を置く",
+      "shadow_trigger": "感覚の鈍化、生の実感の欠如",
+      "keywords": [
+        "五感",
+        "触感",
+        "味覚",
+        "香り",
+        "体験"
+      ]
+    },
+    {
+      "id": "V047",
+      "name_ja": "情熱",
+      "name_en": "Passion",
+      "category": "pleasure",
+      "description": "心から熱中できることに価値を置く",
+      "shadow_trigger": "情熱の枯渇、無気力、虚無感",
+      "keywords": [
+        "熱意",
+        "熱狂",
+        "夢中",
+        "没頭",
+        "燃える"
+      ]
+    },
+    {
+      "id": "V048",
+      "name_ja": "遊び",
+      "name_en": "Play",
+      "category": "pleasure",
+      "description": "遊び心を持って生きることに価値を置く",
+      "shadow_trigger": "真面目すぎる生活への窒息感",
+      "keywords": [
+        "ゲーム",
+        "楽しむ",
+        "リラックス",
+        "自由"
+      ]
+    },
+    {
+      "id": "V049",
+      "name_ja": "エネルギー",
+      "name_en": "Energy",
+      "category": "pleasure",
+      "description": "活力に満ちた状態でいることに価値を置く",
+      "shadow_trigger": "疲労、無気力、エネルギー枯渇",
+      "keywords": [
+        "活力",
+        "元気",
+        "パワー",
+        "バイタリティ"
+      ]
+    },
+    {
+      "id": "V050",
+      "name_ja": "芸術",
+      "name_en": "Art",
+      "category": "pleasure",
+      "description": "芸術を創造し鑑賞することに価値を置く",
+      "shadow_trigger": "創造性の枯渇、美的刺激の欠如",
+      "keywords": [
+        "創作",
+        "表現",
+        "アート",
+        "クリエイティブ"
+      ]
+    },
+    {
+      "id": "V051",
+      "name_ja": "誠実",
+      "name_en": "Integrity",
+      "category": "meaning",
+      "description": "自分の信念に従い、嘘のない行動をすることに価値を置く",
+      "shadow_trigger": "自己欺瞞への嫌悪、偽善への怒り",
+      "keywords": [
+        "正直",
+        "真実",
+        "一貫性",
+        "信頼",
+        "本物"
+      ]
+    },
+    {
+      "id": "V052",
+      "name_ja": "目的",
+      "name_en": "Purpose",
+      "category": "meaning",
+      "description": "人生に明確な目的を持つことに価値を置く",
+      "shadow_trigger": "無意味感、虚無、存在意義の疑問",
+      "keywords": [
+        "使命",
+        "志",
+        "方向性",
+        "ビジョン",
+        "意義"
+      ]
+    },
+    {
+      "id": "V053",
+      "name_ja": "意味",
+      "name_en": "Meaning",
+      "category": "meaning",
+      "description": "自分の行動や人生に意味を見出すことに価値を置く",
+      "shadow_trigger": "虚無感、無価値感",
+      "keywords": [
+        "意義",
+        "価値",
+        "存在意義",
+        "理由",
+        "why"
+      ]
+    },
+    {
+      "id": "V054",
+      "name_ja": "正義",
+      "name_en": "Justice",
+      "category": "meaning",
+      "description": "公正で正しいことが行われることに価値を置く",
+      "shadow_trigger": "不公正への怒り、理不尽への憤り",
+      "keywords": [
+        "公正",
+        "フェア",
+        "平等",
+        "正しさ",
+        "倫理"
+      ]
+    },
+    {
+      "id": "V055",
+      "name_ja": "真実",
+      "name_en": "Truth",
+      "category": "meaning",
+      "description": "真実を追求し、正直であることに価値を置く",
+      "shadow_trigger": "嘘への怒り、欺瞞への嫌悪",
+      "keywords": [
+        "事実",
+        "正直",
+        "透明",
+        "リアル",
+        "本当"
+      ]
+    },
+    {
+      "id": "V056",
+      "name_ja": "スピリチュアリティ",
+      "name_en": "Spirituality",
+      "category": "meaning",
+      "description": "精神的なつながりや超越的な体験に価値を置く",
+      "shadow_trigger": "魂の渇き、精神的空虚さ",
+      "keywords": [
+        "超越",
+        "魂",
+        "信仰",
+        "悟り",
+        "内面"
+      ]
+    },
+    {
+      "id": "V057",
+      "name_ja": "環境",
+      "name_en": "Environment",
+      "category": "meaning",
+      "description": "自然環境を守り大切にすることに価値を置く",
+      "shadow_trigger": "環境破壊への怒り、自然喪失への悲しみ",
+      "keywords": [
+        "自然",
+        "エコ",
+        "持続可能",
+        "地球",
+        "緑"
+      ]
+    },
+    {
+      "id": "V058",
+      "name_ja": "伝統",
+      "name_en": "Tradition",
+      "category": "meaning",
+      "description": "先人から受け継いだ価値を守ることに価値を置く",
+      "shadow_trigger": "根無し草への不安、歴史の断絶",
+      "keywords": [
+        "文化",
+        "継承",
+        "歴史",
+        "儀式",
+        "受け継ぐ"
+      ]
+    },
+    {
+      "id": "V059",
+      "name_ja": "遺産",
+      "name_en": "Legacy",
+      "category": "meaning",
+      "description": "後世に何かを残すことに価値を置く",
+      "shadow_trigger": "忘れられることへの恐怖、無意味な死",
+      "keywords": [
+        "後世",
+        "貢献",
+        "足跡",
+        "影響",
+        "残す"
+      ]
+    },
+    {
+      "id": "V060",
+      "name_ja": "信仰",
+      "name_en": "Faith",
+      "category": "meaning",
+      "description": "何かを深く信じることに価値を置く",
+      "shadow_trigger": "不信、懐疑、信じるものの喪失",
+      "keywords": [
+        "信念",
+        "信頼",
+        "神",
+        "宗教",
+        "確信"
+      ]
+    },
+    {
+      "id": "V061",
+      "name_ja": "富",
+      "name_en": "Wealth",
+      "category": "power",
+      "description": "経済的豊かさと物質的充足に価値を置く",
+      "shadow_trigger": "欠乏感、生存不安、貧しさへの恐怖",
+      "keywords": [
+        "お金",
+        "資産",
+        "豊かさ",
+        "贅沢",
+        "収入"
+      ]
+    },
+    {
+      "id": "V062",
+      "name_ja": "影響力",
+      "name_en": "Influence",
+      "category": "power",
+      "description": "他者や社会に影響を与えることに価値を置く",
+      "shadow_trigger": "無力感、存在感のなさ、無視される痛み",
+      "keywords": [
+        "インパクト",
+        "変革",
+        "リーダーシップ",
+        "発言力"
+      ]
+    },
+    {
+      "id": "V063",
+      "name_ja": "権力",
+      "name_en": "Power",
+      "category": "power",
+      "description": "決定権や支配力を持つことに価値を置く",
+      "shadow_trigger": "無力感、支配されることへの恐怖",
+      "keywords": [
+        "支配",
+        "コントロール",
+        "権限",
+        "決定権"
+      ]
+    },
+    {
+      "id": "V064",
+      "name_ja": "名声",
+      "name_en": "Fame",
+      "category": "power",
+      "description": "広く知られ、認知されることに価値を置く",
+      "shadow_trigger": "無名への恐怖、忘れられることへの不安",
+      "keywords": [
+        "有名",
+        "認知",
+        "注目",
+        "知名度",
+        "スター"
+      ]
+    },
+    {
+      "id": "V065",
+      "name_ja": "地位",
+      "name_en": "Status",
+      "category": "power",
+      "description": "社会的な地位や肩書きに価値を置く",
+      "shadow_trigger": "下に見られることへの恐怖、軽視への怒り",
+      "keywords": [
+        "立場",
+        "肩書き",
+        "ポジション",
+        "階級",
+        "ランク"
+      ]
+    },
+    {
+      "id": "V066",
+      "name_ja": "競争",
+      "name_en": "Competition",
+      "category": "power",
+      "description": "他者と競い、勝つことに価値を置く",
+      "shadow_trigger": "敗北への恐怖、負けることへの屈辱",
+      "keywords": [
+        "勝負",
+        "対決",
+        "ライバル",
+        "勝利",
+        "一番"
+      ]
+    },
+    {
+      "id": "V067",
+      "name_ja": "成功",
+      "name_en": "Success",
+      "category": "power",
+      "description": "社会的に成功することに価値を置く",
+      "shadow_trigger": "失敗への恐怖、負け組への転落",
+      "keywords": [
+        "成功者",
+        "勝者",
+        "達成",
+        "栄光",
+        "頂点"
+      ]
+    },
+    {
+      "id": "V068",
+      "name_ja": "リーダーシップ",
+      "name_en": "Leadership",
+      "category": "power",
+      "description": "人を導き、先頭に立つことに価値を置く",
+      "shadow_trigger": "フォロワーへの嫌悪、従属への抵抗",
+      "keywords": [
+        "リーダー",
+        "導く",
+        "先導",
+        "カリスマ",
+        "統率"
+      ]
+    },
+    {
+      "id": "V069",
+      "name_ja": "認知",
+      "name_en": "Recognition",
+      "category": "power",
+      "description": "努力や成果を認められることに価値を置く",
+      "shadow_trigger": "無視される痛み、認められないフラストレーション",
+      "keywords": [
+        "承認",
+        "評価",
+        "賞賛",
+        "称える",
+        "感謝"
+      ]
+    },
+    {
+      "id": "V070",
+      "name_ja": "尊敬",
+      "name_en": "Admiration",
+      "category": "power",
+      "description": "他者から尊敬されることに価値を置く",
+      "shadow_trigger": "軽視される屈辱、尊敬の欠如への怒り",
+      "keywords": [
+        "仰がれる",
+        "憧れ",
+        "崇拝",
+        "敬意"
+      ]
+    },
+    {
+      "id": "V071",
+      "name_ja": "責任",
+      "name_en": "Responsibility",
+      "category": "tradition",
+      "description": "自分の役割と義務を果たすことに価値を置く",
+      "shadow_trigger": "無責任への怒り、義務放棄への軽蔑",
+      "keywords": [
+        "義務",
+        "役割",
+        "使命",
+        "信頼",
+        "果たす"
+      ]
+    },
+    {
+      "id": "V072",
+      "name_ja": "忠誠",
+      "name_en": "Loyalty",
+      "category": "tradition",
+      "description": "所属する組織や人に忠誠を尽くすことに価値を置く",
+      "shadow_trigger": "裏切りへの怒り、不忠への軽蔑",
+      "keywords": [
+        "忠実",
+        "献身",
+        "約束",
+        "誓い",
+        "絆"
+      ]
+    },
+    {
+      "id": "V073",
+      "name_ja": "礼儀",
+      "name_en": "Courtesy",
+      "category": "tradition",
+      "description": "礼儀正しく振る舞うことに価値を置く",
+      "shadow_trigger": "無礼への怒り、失礼な行動への不快",
+      "keywords": [
+        "マナー",
+        "作法",
+        "敬意",
+        "丁寧",
+        "礼節"
+      ]
+    },
+    {
+      "id": "V074",
+      "name_ja": "謙虚",
+      "name_en": "Humility",
+      "category": "tradition",
+      "description": "自分を誇示せず謙虚でいることに価値を置く",
+      "shadow_trigger": "傲慢への嫌悪、自慢への不快",
+      "keywords": [
+        "控えめ",
+        "慎み",
+        "自制",
+        "謙遜"
+      ]
+    },
+    {
+      "id": "V075",
+      "name_ja": "規律",
+      "name_en": "Discipline",
+      "category": "tradition",
+      "description": "自己を律し、規律を守ることに価値を置く",
+      "shadow_trigger": "自堕落への嫌悪、怠惰への軽蔑",
+      "keywords": [
+        "自制",
+        "節制",
+        "ルール",
+        "秩序",
+        "統制"
+      ]
+    },
+    {
+      "id": "V076",
+      "name_ja": "奉仕",
+      "name_en": "Service",
+      "category": "tradition",
+      "description": "他者のために尽くすことに価値を置く",
+      "shadow_trigger": "利己主義への怒り、自分勝手への不快",
+      "keywords": [
+        "献身",
+        "サービス",
+        "助け",
+        "支援",
+        "ケア"
+      ]
+    },
+    {
+      "id": "V077",
+      "name_ja": "感謝",
+      "name_en": "Gratitude",
+      "category": "tradition",
+      "description": "恵みに感謝することに価値を置く",
+      "shadow_trigger": "当たり前への傲慢、感謝の欠如",
+      "keywords": [
+        "ありがとう",
+        "恩",
+        "報いる",
+        "認識"
+      ]
+    },
+    {
+      "id": "V078",
+      "name_ja": "文化",
+      "name_en": "Culture",
+      "category": "tradition",
+      "description": "文化的な価値や芸術を守ることに価値を置く",
+      "shadow_trigger": "文化喪失への悲しみ、伝統断絶への怒り",
+      "keywords": [
+        "伝統",
+        "芸術",
+        "継承",
+        "アイデンティティ"
+      ]
+    },
+    {
+      "id": "V079",
+      "name_ja": "調和",
+      "name_en": "Harmony",
+      "category": "tradition",
+      "description": "周囲との調和を保つことに価値を置く",
+      "shadow_trigger": "対立への不快、不和への恐怖",
+      "keywords": [
+        "バランス",
+        "平和",
+        "協調",
+        "和合",
+        "穏やか"
+      ]
+    },
+    {
+      "id": "V080",
+      "name_ja": "アイデンティティ",
+      "name_en": "Identity",
+      "category": "tradition",
+      "description": "自分が何者かを明確に持つことに価値を置く",
+      "shadow_trigger": "自己喪失への恐怖、存在意義の危機",
+      "keywords": [
+        "自己",
+        "アイデンティティ",
+        "存在",
+        "核",
+        "本質"
+      ]
+    },
+    {
+      "id": "V081",
+      "name_ja": "真正性",
+      "name_en": "Authenticity",
+      "category": "meaning",
+      "description": "他人の期待ではなく本当の自分として生きることに価値を置く",
+      "shadow_trigger": "偽りの自分への嫌悪、仮面を被る苦しみ",
+      "keywords": [
+        "本物",
+        "ありのまま",
+        "嘘のない",
+        "素の自分",
+        "ペルソナ"
+      ]
+    },
+    {
+      "id": "V082",
+      "name_ja": "マインドフルネス",
+      "name_en": "Mindfulness",
+      "category": "meaning",
+      "description": "現在の瞬間に意識を集中し判断せずに気づくことに価値を置く",
+      "shadow_trigger": "過去への後悔、未来への不安に囚われる",
+      "keywords": [
+        "今ここ",
+        "瞑想",
+        "気づき",
+        "集中",
+        "現在"
+      ]
+    },
+    {
+      "id": "V083",
+      "name_ja": "心の平安",
+      "name_en": "Inner Peace",
+      "category": "meaning",
+      "description": "内面的な静けさと調和を保つことに価値を置く",
+      "shadow_trigger": "心の乱れ、葛藤、内的苦痛",
+      "keywords": [
+        "静寂",
+        "穏やか",
+        "安らぎ",
+        "平穏",
+        "セレニティ"
+      ]
+    },
+    {
+      "id": "V084",
+      "name_ja": "希望",
+      "name_en": "Hope",
+      "category": "meaning",
+      "description": "未来に対してポジティブで楽観的な見通しを持つことに価値を置く",
+      "shadow_trigger": "絶望、無力感、未来への恐怖",
+      "keywords": [
+        "楽観",
+        "可能性",
+        "明るい未来",
+        "信じる",
+        "期待"
+      ]
+    },
+    {
+      "id": "V085",
+      "name_ja": "勤勉",
+      "name_en": "Industry",
+      "category": "achievement",
+      "description": "仕事や課題に熱心かつ精力的に取り組むことに価値を置く",
+      "shadow_trigger": "怠惰への嫌悪、サボりへの罪悪感",
+      "keywords": [
+        "ハードワーク",
+        "努力",
+        "精勤",
+        "労働",
+        "頑張る"
+      ]
+    },
+    {
+      "id": "V086",
+      "name_ja": "熟達",
+      "name_en": "Mastery",
+      "category": "achievement",
+      "description": "特定の分野や技術において達人の域に達することに価値を置く",
+      "shadow_trigger": "中途半端への嫌悪、アマチュアへの不満",
+      "keywords": [
+        "達人",
+        "エキスパート",
+        "極める",
+        "職人",
+        "プロフェッショナル"
+      ]
+    },
+    {
+      "id": "V087",
+      "name_ja": "正確さ",
+      "name_en": "Accuracy",
+      "category": "achievement",
+      "description": "誤りがなく精密で正しいことに価値を置く",
+      "shadow_trigger": "ミスへの恐怖、曖昧さへの不快",
+      "keywords": [
+        "精密",
+        "正確",
+        "完璧",
+        "細部",
+        "几帳面"
+      ]
+    },
+    {
+      "id": "V088",
+      "name_ja": "扶養",
+      "name_en": "Provide",
+      "category": "relationship",
+      "description": "家族や依存する人々に必要な資源を提供することに価値を置く",
+      "shadow_trigger": "養えない恐怖、プロバイダー失格への不安",
+      "keywords": [
+        "養う",
+        "支える",
+        "経済支援",
+        "大黒柱",
+        "保護者"
+      ]
+    }
+  ]
+}
