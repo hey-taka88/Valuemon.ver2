@@ -26,18 +26,25 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     useEffect(() => {
         const supabase = createClient();
 
+        // Handle case where Supabase is not configured
+        if (!supabase) {
+            console.warn('Supabase not configured. Auth features disabled.');
+            setIsLoading(false);
+            return;
+        }
+
         // 初期セッション取得
-        supabase.auth.getSession().then(({ data: { session } }) => {
-            setSession(session);
-            setUser(session?.user ?? null);
+        supabase.auth.getSession().then(({ data: { session: currentSession } }: { data: { session: Session | null } }) => {
+            setSession(currentSession);
+            setUser(currentSession?.user ?? null);
             setIsLoading(false);
         });
 
         // セッション変更を監視
         const { data: { subscription } } = supabase.auth.onAuthStateChange(
-            (_event, session) => {
-                setSession(session);
-                setUser(session?.user ?? null);
+            (_event: string, newSession: Session | null) => {
+                setSession(newSession);
+                setUser(newSession?.user ?? null);
                 setIsLoading(false);
             }
         );
@@ -47,7 +54,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     const signOut = async () => {
         const supabase = createClient();
-        await supabase.auth.signOut();
+        if (supabase) {
+            await supabase.auth.signOut();
+        }
     };
 
     return (

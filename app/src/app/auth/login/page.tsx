@@ -23,6 +23,12 @@ function LoginForm() {
 
         const supabase = createClient();
 
+        if (!supabase) {
+            setError('認証機能が利用できません。');
+            setIsLoading(false);
+            return;
+        }
+
         try {
             if (mode === 'login') {
                 const { error } = await supabase.auth.signInWithPassword({
@@ -55,6 +61,12 @@ function LoginForm() {
     const handleGoogleAuth = async () => {
         setIsLoading(true);
         const supabase = createClient();
+
+        if (!supabase) {
+            setError('認証機能が利用できません。');
+            setIsLoading(false);
+            return;
+        }
 
         const { error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
